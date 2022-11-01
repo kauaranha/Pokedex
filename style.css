@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+    background-image: url(https://images6.alphacoders.com/686/686162.jpg);
+}
+.main{
+    margin:20px auto;
+    max-width: 1100px;
+    background-color: white;
+    padding:30px 2%;
+}
+
+.main h2{
+    font-size: 45px;
+    text-align: center;
+    color: #ef5350;
+}
+
+.pokemon-boxes{
+    display: flex;
+    margin: 20px 0;
+    flex-wrap: wrap;
+
+}
+
+.poxemon-box{
+    border-radius: 10px;
+    width: 29%;
+    margin-right: 20px 2px;
+    background-color:rgb(230, 230, 230) ;
+}
+
+.poxemon-box img {
+    width: 100%;
+}
+
+.pokemon-box p {
+    color: black;
+    font-size: 21px;
+    text-align: center;
+    padding: 10px 0;
+   
+}
+
+.imagem5{
+    transition: all .5s;
+    border: 10px solid transparent;
+    width: 350px;
+}
+.imagem5:hover{
+    border: 10px solid purple;
+    border-radius: 50%;
+}
+.imagem6{
+    transition: all .5s;
+    border: 10px solid transparent;
+    width: 350px;
+    height: 200px;
+}
+.imagem6:hover{
+    border: 10px solid #136497;
+    border-radius: 50%;
+}
+.imagem7{
+    transition: all .5s;
+    border: 10px solid transparent;
+    width: 310px;
+    height: 200px;
+}
+.imagem7:hover{
+    border: 10px solid red;
+    border-radius: 50%;
+}
+.h2{
+    transition: all .5s;
+    border: 10px solid transparent;
+    width: 350px;
+}
+.h2 :hover{
+    border: 10px solid blue;
+    border-radius: 30%;
+}
+.main h2 img{
+    width: 350px;
+}
+.img {
+    display: inline-block;
+}
+.imagem8:hover{
+    border: 20px solid white;
+    border-radius: 50%;
+}
+.imagem8{
+    transition: all .10s;
+    border: 10px solid transparent;
+    width: 310px;
+    height: 200px;
+}
+
+@media screen and (max-width:768px){
+    .pokemon-box{width:100%;text-align: center;}
+    .pokemon-box img {
+        max-width: 300px;
+    }
+}
